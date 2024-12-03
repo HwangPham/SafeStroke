@@ -12,14 +12,26 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.utc.safestroke.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_map"
+        android:name="com.utc.safestroke.ui.map.MapFragment"
+        android:label="@string/title_map"
+        tools:layout="@layout/fragment_map" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.utc.safestroke.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_detect"
+        android:name="com.utc.safestroke.ui.detect.DetectFragment"
+        android:label="@string/title_detect"
+        tools:layout="@layout/fragment_detect" />
+
+    <fragment
+        android:id="@+id/navigation_chatbot"
+        android:name="com.utc.safestroke.ui.chatbot.ChatbotFragment"
+        android:label="@string/title_chatbot"
+        tools:layout="@layout/fragment_chatbot" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.utc.safestroke.ui.settings.SettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings" />
 </navigation>
